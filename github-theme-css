@@ -137,8 +137,11 @@ html[data-theme="basic-dark-github"] {
     /* ------------------------------------------- */
     --ed-quote-border-color: #58a6ff;
 
-    --ed-code-border: transparent;
-    --ed-code-bg: rgba(110, 118, 129, 0.2);
+    --ed-container-border-color: rgba(87, 96, 106, 0.25); /* #57606a */
+    --ed-container-bg-color:     rgba(110, 118, 129, 0.08); /* #6e7681 */
+    
+    --ed-code-bg:                rgba(87, 96, 106, 0.25); /* #57606a */
+    --ed-code-border:            rgba(110, 118, 129, 0.08); /* #6e7681 */
 
     /* Inline code */
     .lineitem-code {
@@ -219,10 +222,11 @@ html[data-theme="basic-dark-github"] {
 
     --gradient-scrim: none;
 }
+
 /* ------------------------------------------- */
 /* GitHub Light - Clean & Professional         */
 /* ------------------------------------------- */
-html[data-theme="basic-white-github"] {
+html[data-theme="basic-light-github"] {
     color-scheme: light;
 
     /* ------------------------------------------- */
@@ -350,8 +354,11 @@ html[data-theme="basic-white-github"] {
     /* ------------------------------------------- */
     --ed-quote-border-color: #0969da;
 
-    --ed-code-border: transparent;
-    --ed-code-bg: rgba(175, 184, 193, 0.2);
+    --ed-container-border-color: rgba(175, 184, 193, 0.25); /* #afb8c1 */
+    --ed-container-bg-color:     rgba(36, 41, 47, 0.08);    /* #24292f */
+    
+    --ed-code-bg:                rgba(175, 184, 193, 0.25); /* #afb8c1 */
+    --ed-code-border:            rgba(36, 41, 47, 0.08);    /* #24292f */
 
     /* Inline code */
     .lineitem-code {
